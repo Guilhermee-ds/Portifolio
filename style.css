@@ -220,7 +220,6 @@ font-size: 1.8rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    cursor: pointer;
     transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -254,6 +253,7 @@ font-size: 1.8rem;
 }
 .skill-card #img :hover{
     color: #FF4500;
+    cursor: none;
 }
 
 
@@ -338,7 +338,6 @@ font-size: 1.8rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    cursor: pointer;
 }
 
 .card-cert:hover{
@@ -378,7 +377,6 @@ font-size: 1.8rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    cursor: pointer;
 
 }
 
