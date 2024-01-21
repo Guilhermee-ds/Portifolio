@@ -20,10 +20,10 @@ ScrollReveal({
     duration: 2000,
     delay: 200
 })
-ScrollReveal().reveal('.home-bio h1, .about-resume', { origin: 'left'});
+ScrollReveal().reveal('.home-bio h1, .about-resume,', { origin: 'left'});
 ScrollReveal().reveal('.home-bio p', { origin: 'right' });
 ScrollReveal().reveal('.home-bio, heading', { origin: 'top' });
-ScrollReveal().reveal('.profile-pic, .about-items, .skills-items, .projects-items, .training-card, .socialContainer', { origin: 'bottom' });
+ScrollReveal().reveal('.profile-pic, .about-items, .skills-items, .projects-items, .training-card, .socialContainer, .experience-items', { origin: 'bottom' });
 
 
 const animText = new Typed ('.animated-text', {
